@@ -16,8 +16,8 @@ public abstract class SortingAlgorithmTest {
 
   @Test
   public void testSortArray() {
-    int[] input = { 4, 4, 3, 2, 1, 0 };
-    int[] expectedArray = { 0, 1, 2, 3, 4, 4 };
+    int[] input = { 6, 4, 5, 4, 3, 9, 2 };
+    int[] expectedArray = { 2, 3, 4, 4, 5, 6, 9 };
 
     sortingAlgorithm.sort(input);
 
